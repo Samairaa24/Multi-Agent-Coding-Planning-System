@@ -40,4 +40,5 @@ ENV/
 dist/
 build/
 *.egg-info/
+*.zip
 
