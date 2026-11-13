@@ -1,0 +1,15 @@
+# Microsoft AutoGen 0.4+ Core and Extensions
+autogen-agentchat>=0.7.5
+autogen-core>=0.7.5
+autogen-ext[openai]>=0.7.5
+pyautogen>=0.10.0
+
+# LLM Providers & Core Runtime
+openai>=1.50.0
+pydantic>=2.10.0
+python-dotenv>=1.0.0
+aiofiles>=24.0.0
+
+# Testing & Quality Assurance
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

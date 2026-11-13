@@ -1,0 +1,42 @@
+# Python Cache and Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# DSA Build and Execution Workspace
+.dsa_workspace/
+dsa_exec_*/
+dsa_cpp_exec/
+dsa_python_exec/
+
+# Compiled Binaries and Object Files
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# Environment and Secrets
+.env
+.env.local
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and Editor Configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution and Packaging
+dist/
+build/
+*.egg-info/
