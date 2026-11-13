@@ -42,3 +42,4 @@ def get_settings() -> Settings:
         _settings_instance = Settings()
         _settings_instance.workspace_dir.mkdir(parents=True, exist_ok=True)
     return _settings_instance
+

@@ -79,3 +79,4 @@ def test_self_healing_report_flags():
     )
     assert report_first_try.passed_on_first_try
     assert not report_first_try.healed
+

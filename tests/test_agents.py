@@ -27,3 +27,4 @@ def test_coder_agent_creation_cpp():
     agent = create_coder_agent(client, language=Language.CPP, name="CppCoder")
     assert agent.name == "CppCoder"
     assert "C++" in agent.description
+

@@ -128,3 +128,4 @@ def get_problem(problem_id: str) -> Optional[DSAProblem]:
 def list_problems() -> List[DSAProblem]:
     """Return all available problems in the catalog."""
     return list(PROBLEMS_CATALOG.values())
+

@@ -43,3 +43,4 @@ async def test_autogen_executor_cancellation(autogen_executor):
     res = await autogen_executor.execute_code_blocks(blocks, token)
     assert res.exit_code == -1
     assert "cancelled" in res.output.lower()
+

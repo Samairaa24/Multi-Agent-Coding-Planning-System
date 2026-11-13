@@ -47,3 +47,4 @@ async def test_self_healing_cpp_mock(autogen_executor):
     assert report.total_iterations == 2
     assert report.healed
     assert "ALL TESTS PASSED" in report.final_code
+

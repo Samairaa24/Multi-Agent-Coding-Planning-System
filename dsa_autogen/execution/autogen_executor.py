@@ -97,3 +97,4 @@ class MultiLangCodeExecutor(CodeExecutor):
             combined_output.append(f"--- Code Block {idx + 1} ({language.display_name}) ---\n{summary}")
 
         return CodeResult(exit_code=overall_exit_code, output="\n\n".join(combined_output))
+

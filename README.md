@@ -250,3 +250,4 @@ All settings can be configured through environment variables or a `.env` file:
 
 ## 📄 License
 This repository is licensed under the MIT License.
+

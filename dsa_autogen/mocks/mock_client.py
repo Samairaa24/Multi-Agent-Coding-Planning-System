@@ -248,3 +248,4 @@ def create_mock_client(language: Language, problem_title: str = "Two Sum") -> Re
         structured_output=False,
     )
     return ReplayChatCompletionClient(chat_completions=completions, model_info=model_info)
+

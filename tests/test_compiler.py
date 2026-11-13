@@ -36,3 +36,4 @@ def test_syntax_error_compilation(cpp_compiler, temp_workspace):
     assert result.returncode != 0
     assert result.executable_path is None
     assert "error" in result.stderr.lower()
+
